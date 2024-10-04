@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #030520;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.header_body{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 30px 80px;
+}
+
+.header_logo h1{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.header_list ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+}
+
+.header_list li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.header_list a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header_list a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.main_body{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2_left{
+    width: 65%;
+    padding: 100px;
+    margin-left: 50px;
+}
+
+.s2l_title1 h1{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.s2l_title2 h3{
+    font-weight: 200;
+    font-size: 28px;
+    letter-spacing: 0.4em;
+    padding: 10px;
+}
+
+.s2l_para{
+    font-size: 18px;
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.s2l_details{
+    display: flex;
+    margin: 50px;
+}
+
+.detail{
+    margin: 0 20px;
+}
+
+.detail button{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 14px 24px;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: #fff;
+    color: #030520;
+}
+
+button.btn2:hover{
+    background-color: #fff;
+    color: #030520;
+}
+
+.contact{
+    margin-top: 50px
+}
+
+.contact_title h3{
+    font-size: 34px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.contact_details{
+    margin: 20px 80px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.detail_item{
+    padding: 10px;
+    letter-spacing: 0.25em;
+    width: 500px;
+    display: flex;
+}
+
+.detail_item p.di_para{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.section2_right{
+    height: 100%;
+}
+
+img.header_image{
+    width: 750px;
+    margin-left: -100px;
+    margin-top: -50px;
+}
